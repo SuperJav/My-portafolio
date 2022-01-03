@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+.navbar-light .navbar-toggler {
+  background-color: #ffc107 !important;
+}
+html{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Pushster", cursive;
+  background-color: #14213d;
+}
+
+ul li {
+  padding-left: 5px;
+}
+ul li a {
+  color: #fff !important;
+}
+
+@media screen and (min-width: 1024px) {
+  #titulo {
+    margin-right: 555px;
+  }
+}
+.card {
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: 1px 1px 5px #131111, -0px -0px 15px #e5e5e5;
+  font-family: "Pushster", cursive;
+}
+.card-body > a {
+  background-color: #14213d;
+}
+.card:hover {
+  box-shadow: 5px 5px 15px #131111, 5px -5px 15px #14213d;
+  font-family: "Pushster", cursive;
+}
+.card-body > a:hover {
+  background-color: #ffc107;
+  border-color: black;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mi-foto {
+  width: 100%;
+  height: 100%;
+}
+span {
+  font-family: "Pushster", cursive;
+  font-size: larger;
+  color: #e0e0e0;
+  text-align: center;
+}
+.foto {
+  border-right: 2px solid #e0e0e046;
+}
+.logo-tecnologia {
+  margin-bottom: 50px;
+  padding-top: 43%;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #a5aab481;
+}
+.informacion p {
+  color: #ffc107;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+iframe {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.contacto p img {
+  margin-right: 5%;
+}
+.contacto p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 990px) {
+  button {
+    margin-top: 15px;
+  }
+  #milogo {
+    max-width: 100%;
+    border: 5px solid #e0e0e0;
+  }
+  .coluna {
+    padding-left: 0;
+    align-items: center;
+    align-self: flex-start;
+  }
+  #minilogo{
+      max-width: 40px;
+      margin-left: -15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #milogo {
+    max-width: 30%;
+    border: 5px solid #e0e0e0;
+    margin-right: 10%;
+  }
+  .coluna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span{
+    font-size: 100%;
+}
+  
+}
+#redes {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e033;
+}
+#desborde1 {
+  display: block;
+  margin: -49px;
+}
+#desborde2 {
+  margin-left: -48px;
+  margin-right: -48px;
+}
+#conocimiento {
+  font-family: "Pushster", cursive;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+.parrafo p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#gitf {
+  width: 100%;
+  height: 75%;
+}
+footer{
+  padding-bottom: 5px;
+}
+footer p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sobremi{
+  background: linear-gradient(1000deg, #1d3557,#ffc1076b );
+}
+#contenedorsobremi {
+    margin-top: 20%;
+  padding-right: 0;
+  border-top: 10px double #e0e0e010;
+}
+div #logo-lenguaje img {
+  width: 10%;
+}
+#mapa{
+    border-top: 10px double #e0e0e010;
+}
+#minilogo{
+    width: 15%;
+    margin-top: -25px;
+}
